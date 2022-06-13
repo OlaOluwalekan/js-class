@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register | Login</title>
+
+    <!-- CSS style link -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Register and Login System</h1>
+
+      <!-- REGISTER CONTAINER -->
+      <div class="register-div">
+        <div class="reg-head"><h1>Resgister</h1></div>
+        <input
+          type="email"
+          name="email"
+          id="userEmailReg"
+          placeholder="E-mail"
+        />
+        <input type="text" name="fName" id="fName" placeholder="First Name" />
+        <input type="text" name="lName" id="lName" placeholder="Last Name" />
+        <input
+          type="text"
+          name="username"
+          id="userNameReg"
+          placeholder="Username"
+        />
+        <input
+          type="password"
+          name="password"
+          id="userPassReg"
+          placeholder="Password"
+        />
+        <input
+          type="password"
+          name="re-pass"
+          id="rePass"
+          placeholder="Confirm Password"
+        />
+        <button class="register-btn">Register</button>
+        <div class="go-to-login">
+          Already have an account? <span>Login Here</span>
+        </div>
+      </div>
+      <!-- END OF REGISTER CONTAINER -->
+
+      <!-- LOGIN CONTAINER -->
+      <div class="login-div">
+        <div class="login-head"><h1>Login</h1></div>
+        <input
+          type="email"
+          name="email"
+          id="userEmailLogin"
+          placeholder="E-mail"
+        />
+        <input
+          type="password"
+          name="password"
+          id="userPassLogin"
+          placeholder="Password"
+        />
+        <button class="login-btn">Login</button>
+        <div class="go-to-register">
+          Don't have an account? <span>Register Here</span>
+        </div>
+      </div>
+      <!-- END OF LOGIN CONTAINER -->
+
+      <!-- AFTER USER LOGIN -->
+      <div class="logged-in">
+        <h1 class="welcome">Welcome <span></span></h1>
+      </div>
+      <!-- END OF AFTER LOGIN -->
+    </div>
+
+    <!-- JavaScript Link -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
