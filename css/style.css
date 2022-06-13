@@ -12,8 +12,18 @@
     display: flex;
     justify-content: center;
   }
+
   .container {
     width: 50vw;
+    background-color: yellow;
+  }
+
+  .register-div {
+    width: 50% !important;
+  }
+
+  .login-div {
+    width: 50% !important;
   }
 }
 
